@@ -1,0 +1,116 @@
+      .nav li {
+          display: inline-block;
+          font-size: 20px;
+          padding: 20px;
+      }
+
+      .center {
+          margin: 50px;
+          width: 180px;
+          border-bottom-style: solid;
+          border-color: black;
+          font-size: larger;
+      }
+
+      .why {
+          font-size: medium;
+          margin-left: 50px;
+          padding-bottom: 50px;
+          width: 25%;   
+      }
+
+      .waw {
+          border-radius: 15px;
+          padding: 2px;
+          background-color: orangered;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          padding-left: 20px;
+          padding-right: 16px;
+          width: fit-content;
+          color: white;
+          margin-left: 50px;
+          text-decoration: none;
+          font-family: 'Courier New', Courier, monospace;
+          margin-top: 20px;
+      }
+
+      .waw:visited {
+          color: white;
+
+      }
+
+      .sup {
+          float: right;
+          margin-right: 550px;
+          padding-bottom: 300px;
+      }
+
+
+      .grad1 {
+          background-color: white;
+          list-style-type: none;
+
+
+      }
+
+      .grad1 li {
+          display: inline-block;
+          font-size: 20px;
+          padding: 20px;
+          text-decoration: none;
+      }
+
+      /* unvisited link */
+      a:link {
+          color: rgb(3, 43, 151);
+      }
+
+      /* visited link */
+      a:visited {
+          color: blue;
+      }
+
+      /* mouse over link */
+      a:hover {
+          color: rgb(1, 95, 95);
+      }
+
+      /* selected link */
+      a:active {
+          color: rgb(123, 7, 158);
+      }
+
+      .button {
+          background: transparent;
+          border: 0;
+          background-color: #f0f0f0;
+          color: purple;
+          text-decoration: none;
+          padding: 10px 15px;
+          border-radius: 12px;
+          font-size: 16px;
+
+      }
+
+
+      .hi {
+          margin-left: 80%;
+          margin-bottom: 10px;
+      }
+
+      header {
+          display: flex;
+          align-items: center;
+          
+      }
+
+      .hey {
+          margin-left: 600px;
+      }
+
+      .grad1 *{
+          text-decoration: none;
+         opacity: 0.5;
+    
+      }
